@@ -36,7 +36,7 @@
 
                 <li>
                     <a href="{{url('index')}}">
-                        <i class="uil-home-alt"></i><span class="badge rounded-pill bg-primary float-end">01</span>
+                        <i class="uil-home-alt"></i><span class="badge rounded-pill bg-primary float-end"></span>
                         <span>TABLEAU DE BORD</span>
                     </a>
                 </li>
@@ -47,9 +47,9 @@
                         <span>PROJET</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="ecommerce-add-product">CREER PROJET</a></li>
-                        <li><a href="ecommerce-orders">LISTE PROJET</a></li>
-                        <li><a href="ecommerce-shops">ARCHIVES</a></li>
+                        <li><a href="add-project">CREER PROJET</a></li>
+                        <li><a href="list-project">LISTE PROJET</a></li>
+
 
 
                     </ul>
@@ -62,20 +62,12 @@
                         <span>BILAN DE TEST</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="invoices-list">LISTE DES BILANS</a></li>
+                        <li><a href="generer">GENERER BILAN</a></li>
+                        <li><a href="list-bilan">LISTE DES BILANS</a></li>
 
                     </ul>
                 </li>
 
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="uil-book-alt"></i>
-                        <span>STATISTIQUES</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="ecommerce-customers">PROJETS</a></li>
-                    </ul>
-                </li>
 
 
 

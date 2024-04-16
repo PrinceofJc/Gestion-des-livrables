@@ -10,29 +10,17 @@
 
 @section('content')
 @component('common-components.breadcrumb')
-@slot('pagetitle') Invoices @endslot
-@slot('title') Invoice List @endslot
+@slot('pagetitle') Bilan de test @endslot
+@slot('title')Liste des bilans @endslot
 @endcomponent
 
 <div class="row">
     <div class="col-md-4">
         <div>
-            <button type="button" class="btn btn-success waves-effect waves-light mb-3"><i class="mdi mdi-plus me-1"></i> Add Invoice</button>
+            <button type="button" class="btn btn-success waves-effect waves-light mb-3"><i class="mdi mdi-plus me-1"></i> Ajouter un projet</button>
         </div>
     </div>
-    <div class="col-md-8">
-        <div class="float-end">
-            <div class=" mb-3">
-                <div class="input-daterange input-group" id="datepicker6" data-date-format="dd M, yyyy" data-date-autoclose="true" data-provide="datepicker" data-date-container='#datepicker6'>
-                    <input type="text" class="form-control text-start" placeholder="From" name="From" />
-                    <input type="text" class="form-control text-start" placeholder="To" name="To" />
-
-                    <button type="button" class="btn btn-primary"><i class="mdi mdi-filter-variant"></i></button>
-                </div>
-            </div>
-
-        </div>
-    </div>
+  
 </div>
 
 <div class="row">
